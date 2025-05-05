@@ -1,0 +1,164 @@
+.scalableContainer {
+  max-width: 1580px;
+  height: 580px;
+  justify-content: center;
+  margin: auto;
+}
+.scalableImage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.scaleLink {
+  min-width: 100%;
+}
+.scaleImage {
+  min-width: 100%;
+  height: 580px;
+  transition: transform 0.2s ease-in;
+}
+.scaleImage img {
+  width: 100%;
+  height: 580px;
+  border-bottom: 4px solid #ff0099;
+}
+.scaleRightBtn {
+  right: 20px;
+}
+.scaleLeftBtn {
+  left: 20px;
+}
+.scaleLeftBtn,
+.scaleRightBtn {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 2;
+  top: 200px;
+  height: 100px;
+  width: 30px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px 2px #ff0099, rgb(0, 255, 166) 1,
+    0px 2px rgb(0, 255, 30), 0 0 10px 2px rgb(255, 0, 68);
+  border: 0;
+  background-color: #ff0099;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scaleDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  top: 80%;
+  overflow: hidden;
+  left: 46%;
+}
+.scaleIndi {
+  width: 24px;
+  height: 8px;
+  border-radius: 10px;
+  background-color: white;
+  margin-right: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 667px) {
+  .scalableContainer {
+    max-width: 100%;
+    height: 220px;
+  }
+  .scalableImage {
+    height: 100%;
+    width: 100%;
+  }
+  .scaleImage {
+    min-width: 100%;
+    height: 220px;
+  }
+  .scaleImage img {
+    width: 100%;
+    height: 220px;
+    border-bottom: 2px solid #ff0099;
+  }
+  .scaleRightBtn {
+    right: 10px;
+  }
+  .scaleLeftBtn {
+    left: 10px;
+  }
+  .scaleLeftBtn,
+  .scaleRightBtn {
+    top: 60px;
+    height: 60px;
+    width: 20px;
+    font-size: 1.4rem;
+    box-shadow: 0 0 10px 1px #ff0099, rgb(0, 255, 166) 1;
+    border-radius: 4px;
+  }
+
+  .scaleDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    top: 90%;
+    overflow: hidden;
+    left: 33%;
+  }
+  .scaleIndi {
+    width: 20px;
+    height: 6px;
+    border-radius: 10px;
+    margin-right: 4px;
+  }
+}
+
+@media (min-width: 668px) and (max-width: 1024px) {
+  .scalableContainer {
+    max-width: 100%;
+    height: 450px;
+  }
+  .scalableImage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  .scaleImage {
+    min-width: 100%;
+    height: 480px;
+    transition: transform 0.3s ease-in;
+  }
+  .scaleImage img {
+    width: 100%;
+    height: 450px;
+    border-bottom: 2px solid #ff0099;
+  }
+  .scaleRightBtn {
+    right: 15px;
+  }
+  .scaleLeftBtn {
+    left: 15px;
+  }
+  .scaleLeftBtn,
+  .scaleRightBtn {
+    top: 40%;
+    height: 80px;
+    width: 28px;
+  }
+
+  .scaleDiv {
+    top: 88%;
+    left: 43%;
+  }
+}

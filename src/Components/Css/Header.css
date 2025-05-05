@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.navbar,
+.navSec {
+  max-width: 1580px;
+  color: white;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #232323;
+  color: rgba(255, 255, 255, 0.726);
+  justify-content: space-evenly;
+  position: "relative";
+  overflow-x: hidden;
+  padding-left: 2%;
+}
+.samLogo {
+  background: linear-gradient(
+    to right,
+    rgb(0, 255, 38),
+    #ff0099,
+    rgb(255, 128, 0)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 32px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+.searchbarArea {
+  width: 60%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-left: 2rem;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+.searchbar {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ff0099;
+  caret-color: #ff0099;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 0 12px;
+}
+.searchIcon {
+  width: 60px;
+  height: 100%;
+  background-color: #ff0099;
+  color: rgb(255, 255, 255);
+  font-size: 1px;
+  font-weight: 600;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.moviesMod {
+  display: flex;
+  align-items: center;
+}
+
+.moviesMod p {
+  width: 100px;
+  height: 35px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  font-weight: 600;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.headerHolly p,
+.headerBolly p,
+.headerAnime p {
+  background: linear-gradient(
+    to top left,
+    #ff0099,
+    rgb(172, 0, 207),
+    rgb(0, 255, 195)
+  );
+  margin-left: 1rem;
+  border-radius: 12px;
+  color: black;
+}
+.headerHolly p:hover,
+.headerBolly p:hover,
+.headerAnime p:hover {
+  color: white;
+}
+.secHeader {
+  border-top: 2px solid #00ff1a;
+  background-color: #ff0099;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+  justify-content: left;
+  padding-left: 2%;
+}
+.menuIcon {
+  font-size: 1.5rem;
+  display: flex;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .samLogo {
+    font-size: 28px;
+    margin-left: 0.2rem;
+  }
+  .secHeader {
+    justify-content: left;
+  }
+  .navbar,
+  .navSec {
+    max-width: 100%;
+  }
+  .header {
+    width: 100%;
+    height: 60px;
+    padding-left: 2%;
+  }
+  .searchbarArea {
+    width: 100%;
+    margin-left: 0.6rem;
+    margin-right: 0.2rem;
+    font-size: 0.8rem;
+  }
+  .searchbar {
+    width: 100%;
+    height: 100%;
+    font-size: 0.8rem;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 0 6px;
+  }
+  .samLogo {
+    margin: 0;
+  }
+  .searchIcon {
+    font-size: 0;
+    font-weight: 600;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .headerHolly,
+  .headerBolly,
+  .headerAnime {
+    display: none;
+  }
+  .menuIcon {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  .secHeader {
+    padding-left: 2%;
+  }
+}
+
+@media (min-width: 668px) and (max-width: 1024px) {
+  .navbar,
+  .navSec {
+    max-width: 100%;
+  }
+  .searchbarArea {
+    width: 100%;
+    margin-left: 1.5rem;
+    margin-right: 0.8rem;
+  }
+
+  .searchIcon {
+    width: 60px;
+    height: 100%;
+    background-color: #ff0099;
+    color: rgb(255, 255, 255);
+    font-size: 1px;
+    font-weight: 600;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .headerAnime {
+    display: none;
+  }
+  .secHeader {
+    padding-left: 2%;
+    justify-content: left;
+  }
+  .menuIcon {
+    font-size: 1.5rem;
+    display: flex;
+    cursor: pointer;
+    color: white;
+  }
+}

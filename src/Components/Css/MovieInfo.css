@@ -1,0 +1,234 @@
+.movieContainer {
+  max-width: 1580px;
+  overflow: hidden;
+  margin: 1rem auto;
+  padding: 0 2%;
+  text-align: center;
+}
+.movieInfoTitle {
+  color: #ff0099;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.movieInfoContainer {
+  border: 2px solid #ff0099;
+  padding: 8px 1%;
+  max-width: 90%;
+  border-radius: 4px;
+  margin: auto;
+  overflow: hidden;
+}
+.movieInfoImage img {
+  height: 450px;
+  padding-top: 8px;
+  width: 350px;
+  border-radius: 4px;
+}
+.movieInfoImage {
+  color: rgba(245, 245, 245, 0.722);
+  display: flex;
+}
+.mdta {
+  display: flex;
+  width: 100%;
+}
+.movieInfoDetails {
+  width: 80%;
+}
+.movieInfoMovieName {
+  width: 100%;
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+}
+.mdTitleArea,
+.mdDurationArea,
+.mdYearArea,
+.mdQualityArea,
+.mdDirectorArea,
+.mdStarArea,
+.mdLanguageArea,
+.mdSubstitleArea,
+.mdGenreArea {
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.438);
+  margin-top: 0.5rem;
+}
+.mdStoryArea {
+  display: flex;
+  margin-top: 0.8rem;
+}
+.mdStoryArea p {
+  width: 80%;
+  text-align: left;
+  margin-right: 1.2rem;
+}
+.movieInfoMovieName span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-right: 1rem;
+  color: #ff0099;
+  width: 120px;
+  text-align: left;
+}
+.mdDurationArea p,
+.mdYearArea p,
+.mdQualityArea p,
+.mdTitleArea p,
+.mdDirectorArea p,
+.mdStarArea p,
+.mdLanguageArea p,
+.mdSubstitleArea p,
+.mdGenreArea p {
+  margin-left: 1.5rem;
+}
+
+.mdDownloadArea {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.mdChoose {
+  color: rgba(255, 255, 255, 0.608);
+}
+.md480p,
+.md720p,
+.md1080p,
+.md1440p,
+.md2160p {
+  background: linear-gradient(to right, #ff0099, rgb(255, 213, 0));
+  width: 140px;
+  padding: 8px;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 16px;
+  color: white;
+}
+
+@media (max-width: 667px) {
+  .movieContainer {
+    width: 100%;
+    overflow: hidden;
+    margin: 1rem auto;
+    padding: 0;
+    text-align: center;
+  }
+  .movieInfoTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .movieInfoContainer {
+    padding: 8px;
+  }
+  .movieInfoImage img {
+    height: 450px;
+    margin: auto;
+    width: 99%;
+    padding-top: 8px;
+  }
+  .movieInfoImage {
+    color: rgba(245, 245, 245, 0.722);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .mdta {
+    display: flex;
+    width: 100%;
+  }
+  .movieInfoDetails {
+    width: 99%;
+  }
+  .movieInfoMovieName {
+    width: 100%;
+    font-size: 1rem;
+    margin-left: 0;
+  }
+  .movieInfoMovieName span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 0;
+    color: rgb(255, 0, 255);
+    min-width: 140px;
+    text-align: left;
+  }
+  .mdDurationArea p,
+  .mdYearArea p,
+  .mdQualityArea p,
+  .mdTitleArea p,
+  .mdDirectorArea p,
+  .mdStarArea p,
+  .mdLanguageArea p,
+  .mdSubstitleArea p,
+  .mdGenreArea p {
+    margin-left: 16px;
+  }
+  .mdStoryArea span {
+    width: 40px;
+    min-width: 60px;
+  }
+  .mdStoryArea p {
+    min-width: 82%;
+    margin-right: 0.8rem;
+  }
+  .mdChoose {
+    color: rgba(255, 255, 255, 0.608);
+  }
+}
+
+@media (min-width: 668px) and (max-width: 1024px) {
+  .movieContainer {
+    width: 100%;
+    padding: 0;
+  }
+  .movieInfoTitle {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  .movieInfoContainer {
+    max-width: 99%;
+  }
+  .mdta {
+    display: flex;
+    width: 100%;
+  }
+  .movieInfoDetails {
+    width: 80%;
+  }
+  .movieInfoMovieName {
+    width: 100%;
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .mdStoryArea {
+    display: flex;
+    margin-top: 0.8rem;
+  }
+  .mdStoryArea p {
+    width: 90%;
+    margin-right: 1rem;
+    text-align: left;
+  }
+  .movieInfoMovieName span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-right: 1rem;
+  }
+  .mdDurationArea p,
+  .mdYearArea p,
+  .mdQualityArea p,
+  .mdTitleArea p,
+  .mdDirectorArea p,
+  .mdStarArea p,
+  .mdLanguageArea p,
+  .mdSubstitleArea p,
+  .mdGenreArea p {
+    margin-left: 1rem;
+  }
+}

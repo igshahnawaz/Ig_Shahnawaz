@@ -1,0 +1,64 @@
+.sidebarContainer {
+  max-width: 1580px;
+  margin: auto;
+  position: relative;
+}
+.sidebarOverlay {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  z-index: 3;
+  right: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+}
+.sidebar {
+  height: 100%;
+  z-index: 3;
+  position: absolute;
+  background-color: #ff0099;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  transform: translateX(-101%);
+  transform: 8s;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar li {
+  width: 100%;
+  font-weight: 600;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.sidebar li {
+  padding: 0.7rem 5rem 0.7rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.612);
+}
+.sidebar li:hover {
+  background-color: rgb(0, 255, 225);
+  color: #000;
+}
+.menuClosebar {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.655);
+}
+
+@media (max-width: 668px) {
+  .sidebar li {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.612);
+  }
+}

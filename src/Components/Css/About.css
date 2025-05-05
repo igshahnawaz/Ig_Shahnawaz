@@ -1,0 +1,64 @@
+.aboutContainer {
+  max-width: 1580px;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+.aboutpage {
+  max-width: 60%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.042);
+  border: 2px solid rgba(255, 255, 255, 0.252);
+  border-radius: 8px;
+  color: white;
+}
+.aboutpage h1 {
+  background-color: #ff0099;
+  border-radius: 8px;
+  padding: 0 2.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.aboutpage p {
+  font-size: 1.4rem;
+  padding: 1rem 2.5rem;
+}
+
+@media (max-width: 667px) {
+  .aboutContainer {
+    max-width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .aboutpage {
+    max-width: 96%;
+  }
+  .aboutpage h1 {
+    padding: 0 1rem;
+  }
+  .aboutpage p {
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+  }
+}
+
+@media (min-width: 668px) and (max-width:1024px){
+  .aboutContainer {
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .aboutpage {
+    max-width: 86%;
+  }
+  .aboutpage h1 {
+    padding: 0 1.4rem;
+  }
+  .aboutpage p {
+    font-size: 1.4rem;
+    padding: 1.2rem;
+  }
+}

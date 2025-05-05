@@ -1,0 +1,493 @@
+.homeCardContainer,
+.bollyContainer,
+.animeContainer,
+.hollyContainer,
+.hollyHindiContainer,
+.koreanContainer,
+.pujabiContainer,
+.southHindiContainer,
+.webSeriesContainer {
+  max-width: 1580px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.allCardsContainer {
+  margin-top: .2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.homeCard {
+  width: 246px;
+  margin: 0.8rem;
+  color: rgb(0, 255, 204);
+  position: relative;
+}
+
+.homeImage {
+  width: 100%;
+  cursor: pointer;
+  height: 316px;
+}
+.homeCardTitle {
+  font-size: 1.2rem;
+  position: absolute;
+  display: flex;
+  color: rgb(255, 0, 238);
+  font-weight: 900;
+  z-index: 2;
+  line-height: 0.6cm;
+  top: 200px;
+  left: 20px;
+  overflow: hidden;
+  height: 130px;
+}
+.homeQuality {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  height: 25px;
+  background: linear-gradient(
+    to left top,
+    rgb(0, 255, 179),
+    blue,
+    rgb(255, 0, 204)
+  );
+  position: absolute;
+  z-index: 2;
+  top: 15px;
+  right: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+.homeCard:hover {
+  .homeDownload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  height: 316px;
+  width: 246px;
+}
+
+.homeNext {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeNextPage {
+  width: 1580px;
+
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: white;
+  height: 60px;
+}
+.homeNextPage p:hover {
+  box-shadow: 0 0 10px 2px rgb(4, 255, 0);
+  background: linear-gradient(
+    to left top,
+    rgb(0, 255, 179),
+    rgb(255, 0, 204),
+    rgb(0, 255, 187)
+  );
+}
+.homeNextPage p {
+  width: 150px;
+  height: 60px;
+  background: linear-gradient(
+    to left top,
+    rgb(0, 255, 179),
+    blue,
+    rgb(255, 0, 204)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.homeCard {
+  position: relative;
+  overflow: hidden;
+}
+.homeSecCard {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-101%);
+  transition: 0.5s ease-out;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  color: #ff0099;
+}
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 0.6cm;
+  padding-top: 3px;
+}
+.cardYear {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  padding-top: 2px;
+}
+.cardDetails {
+  margin-bottom: 0.5rem;
+  font-size: 15px;
+}
+.cardStory {
+  font-size: 14px;
+  position: relative;
+  overflow: hidden;
+  height: 58px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardSee {
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+}
+.cardDirector,
+.cardStar,
+.cardLang,
+.cardSubs {
+  display: flex;
+  margin-bottom: 0.25rem;
+}
+.cardDetail {
+  font-size: 14px;
+}
+.cardHead {
+  margin-right: 0.5rem;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+.cardDownload {
+  width: 200px;
+  height: 40px;
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px 1px rgb(0, 255, 221);
+  background-color: #ff0099;
+  cursor: pointer;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-top: 0.5rem;
+}
+.cardDownload:hover {
+  background: linear-gradient(to left top, rgb(0, 255, 179), blue, #ff0099);
+  box-shadow: 0 0 10px 2px rgb(30, 255, 0);
+}
+.homeCard:hover {
+  .homeSecCard {
+    transform: translateX(0%);
+  }
+  .homeDownload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  height: 100%;
+  width: 246px;
+}
+.homeTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ff0099;
+}
+
+@media (max-width: 667px) {
+  .homeCardContainer,
+  .bollyContainer,
+  .animeContainer,
+  .hollyContainer,
+  .hollyHindiContainer,
+  .koreanContainer,
+  .pujabiContainer,
+  .southHindiContainer,
+  .webSeriesContainer {
+    max-width: 100%;
+    justify-content: space-around;
+    margin: 0;
+  }
+  .allCardsContainer {
+    margin-top: 0.8rem;
+  }
+  .homeCard {
+    width: 160px;
+    margin: 0.6rem;
+  }
+
+  .homeImage {
+    width: 100%;
+    cursor: pointer;
+    height: 220px;
+  }
+  .homeCardTitle {
+    top: 16px;
+    left: 10px;
+    font-size: 1.1rem;
+    height: 115px;
+    line-height: 0.45cm;
+    top: 45%;
+    color: rgb(255, 0, 170);
+  }
+  .homeQuality {
+    width: 60px;
+    border-radius: 14px;
+    height: 20px;
+    font-size: 0.85rem;
+    top: 10px;
+    right: 10px;
+    padding-bottom: 0px;
+    font-weight: 600;
+  }
+  .homeCard:hover {
+    height: 210px;
+    width: 160px;
+  }
+
+  .homeNextPage {
+    width: 100%;
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    height: 50px;
+  }
+  .homeNextPage p:hover {
+    box-shadow: 0 0 5px 2px rgb(4, 255, 0);
+  }
+  .homeNextPage p {
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin: 0.6rem 0;
+  }
+  .cardTitle {
+    font-size: 1.1rem;
+    line-height: 0.5cm;
+  }
+  .cardYear {
+    font-size: 8px;
+  }
+  .cardDetails {
+    margin-bottom: 0.1rem;
+    font-size: 10px;
+  }
+  .cardStory {
+    font-size: 10px;
+    height: 37px;
+  }
+  .cardSee {
+    font-size: 10px;
+    color: blue;
+    height: 14px;
+    top: 24px;
+    padding-top: 2px;
+  }
+  .cardDirector,
+  .cardStar,
+  .cardLang,
+  .cardSubs {
+    font-size: 10px;
+    margin-bottom: 0.01rem;
+  }
+  .cardDetail {
+    font-size: 10px;
+    padding-top: 2px;
+    padding-left: 4px;
+  }
+  .cardHead {
+    margin: 0 0;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .homeDownload {
+    display: flex;
+    justify-content: center;
+  }
+  .cardDownload {
+    width: 130px;
+    height: 30px;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    box-shadow: 0 0 5px 1px rgb(55, 255, 0);
+  }
+  .homeSecCard {
+    padding: 2px 4px;
+  }
+  .homeCard:hover {
+    .homeSecCard {
+      transform: translateX(0%);
+    }
+  }
+  .cardDownload:hover {
+    background: linear-gradient(
+      to left top,
+      rgb(0, 255, 179),
+      blue,
+      rgb(255, 0, 204)
+    );
+    box-shadow: 0 0 5px 1px rgb(93, 0, 255);
+    margin-left: 0rem;
+  }
+  .homeCard:hover {
+    .homeDownload {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    height: 100%;
+    width: 160px;
+  }
+  .homeTitle {
+    font-size: 1.1 rem;
+  }
+}
+
+@media (min-width: 668px) and (max-width: 1024px) {
+  .homeCardContainer,
+  .bollyContainer,
+  .animeContainer,
+  .hollyContainer,
+  .hollyHindiContainer,
+  .koreanContainer,
+  .pujabiContainer,
+  .southHindiContainer,
+  .webSeriesContainer {
+    max-width: 100%;
+    justify-content: space-around;
+  }
+  .allCardsContainer {
+    margin-top: .1rem;
+  }
+  .homeCard {
+    width: 200px;
+    height: 100%;
+    margin: 0.8rem;
+  }
+
+  .homeImage {
+    height: 260px;
+  }
+  .homeCardTitle {
+    font-size: 1.3rem;
+    top: 150px;
+    left: 10px;
+    right: 10px;
+  }
+  .homeQuality {
+    width: 70px;
+    top: 10px;
+    right: 12px;
+    padding-bottom: 4px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  .homeCard:hover {
+    .homeDownload {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    height: 260px;
+    width: 200px;
+  }
+  .homeNextPage {
+    width: 100%;
+  }
+  .cardTitle {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .cardYear {
+    font-size: 10px;
+  }
+  .cardDetails {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+  .cardStory {
+    font-size: 12px;
+    height: 50px;
+  }
+  .cardSee {
+    font-size: 12px;
+    display: flex;
+    align-items: baseline;
+  }
+  .cardDirector,
+  .cardStar,
+  .cardLang,
+  .cardSubs {
+    display: flex;
+    margin-bottom: 0rem;
+  }
+  .cardDetail {
+    font-size: 12px;
+  }
+  .cardHead {
+    margin-right: 0.5rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+  }
+  .homeDownload {
+    display: flex;
+    justify-content: center;
+  }
+  .langDetails {
+    line-height: 0.4cm;
+  }
+  .cardDownload {
+    width: 140px;
+    height: 30px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 0 5px 1px rgb(0, 255, 221);
+  }
+  .cardDownload:hover {
+    box-shadow: 0 0 10px 1px rgb(30, 255, 0);
+    margin-left: 0;
+  }
+  .homeCard:hover {
+    .homeSecCard {
+      transform: translateX(0%);
+    }
+    height: 100%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1110px) {
+}
