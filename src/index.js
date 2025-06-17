@@ -16,12 +16,18 @@ import KoreanDrama from "./Components/Pages/KoreanDrama";
 import Contact from "./Components/Pages/Contact";
 import Disclaimer from "./Components/Pages/Disclaimer";
 import About from "./Components/Pages/About";
+import SearchMovie from "./Components/Pages/SearchMovie";
+import PageNotFound from "./Components/Pages/PageNotFound";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 let routes = createBrowserRouter([
   {
     path: "/",
     element: <Homepage />,
+  },
+  {
+    path: "*",
+    element: <PageNotFound />,
   },
   {
     path: "about-us",
@@ -40,8 +46,8 @@ let routes = createBrowserRouter([
     element: <MovieInfo />,
   },
   {
-    // path: "/bollywood/movie-details/:id",
-    // element: <MovieInfo />,
+    path: "you-are-searching-for/:id",
+    element: <SearchMovie />,
   },
   {
     path: "bollywood-movies",

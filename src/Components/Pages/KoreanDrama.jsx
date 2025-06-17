@@ -3,7 +3,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Sidebar from "./Sidebar";
 import { Link } from "react-router-dom";
-import { koreanHindiData } from "../Data/KoreanHindiData";
+import Pagination from "./Pagination";
+import { homeCards } from "../Data/HomeCardData";
 
 function KoreanDrama() {
   const underStyle = {
@@ -13,33 +14,32 @@ function KoreanDrama() {
     display: "flex",
     flexWrap: "wrap",
   };
-  let page_size = 20;
-  let [currPage, setCurrPage] = useState(1);
-  let startIndex = (currPage - 1) * page_size;
-  let endIndex = page_size + startIndex;
-  let mykoreanHindiData = koreanHindiData.slice(startIndex, endIndex);
-  let endPage = Math.ceil(koreanHindiData.length / page_size);
-  let prePage = () => {
-    setCurrPage(currPage - 1);
-  };
-  let nextPage = () => {
-    setCurrPage(currPage + 1);
-  };
-
-  let preStyle = {
-    display: currPage <= 1 ? "none" : "flex",
-  };
-
-  let nextStyle = {
-    display: currPage === endPage ? "none" : "flex",
-  };
+  const [page, setPage] = useState(1);
+  const [limit, setLimit] = useState(20);
+  let koreanHindiData = homeCards.filter((val) =>
+    val.homeCat.toLowerCase().includes("korean-drama-hindi")
+  );
+  let koreanHindiPageLength = koreanHindiData.length;
+  let totalPage = Math.ceil(koreanHindiPageLength / limit);
+  let firstIndex = (page - 1) * limit;
+  let endIndex = firstIndex + limit;
+  function handlePageChange(value) {
+    if (value === "Next") {
+      setPage(page + 1);
+    } else if (value === "Previous") {
+      setPage(page - 1);
+    } else {
+      setPage(value);
+    }
+  }
+  let filterKoreanHindiData = koreanHindiData.slice(firstIndex, endIndex);
 
   return (
     <>
       <Header />
       <Sidebar />
       <div className="koreanContainer" style={containerStyle}>
-        {mykoreanHindiData.map((val, i) => {
+        {filterKoreanHindiData.map((val, i) => {
           return (
             <div className="homeCardContainer" key={`korean${i}`}>
               <div className="homeCard" tabIndex={0}>
@@ -98,19 +98,13 @@ function KoreanDrama() {
           );
         })}
       </div>
-      <div className="homeNext">
-        <div
-          className="homeNextPage"
-          style={{ gap: "20px", margin: "1.8rem 0" }}
-        >
-          <p onClick={prePage} style={preStyle}>
-            Previous
-          </p>
-          <p onClick={nextPage} style={nextStyle}>
-            Next
-          </p>
-        </div>
-      </div>
+      <Pagination
+        totalPage={totalPage}
+        page={page}
+        limit={limit}
+        siblings={1}
+        onPageChange={handlePageChange}
+      />
       <Footer />
     </>
   );

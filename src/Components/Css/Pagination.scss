@@ -1,0 +1,88 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 1580px;
+}
+.list-item .page-link {
+  background-color: #ff0099;
+  border: 0;
+  outline: 0;
+  min-width: 40px;
+  padding: 6px;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 6px;
+  height: 40px;
+  &:hover {
+    cursor: pointer;
+    background-color: aqua;
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+}
+.list-item .activePage{
+  background-color: aqua;
+  border: 0;
+  outline: 0;
+  min-width: 40px;
+  padding: 6px;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 6px;
+  height: 40px;
+}
+.list-dots {
+  background-color: gray;
+  color: rgb(0, 0, 0);
+  border: 0;
+  outline: 0;
+  min-width: 40px;
+  padding: 6px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+@media (max-width: 667px) {
+  .pagination {
+    gap: 5px;
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .list-item .page-link {
+    min-width: 25px;
+    padding: 4px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border-radius: 4px;
+    height: 25px;
+  }
+  .list-dots {
+    width: 25px;
+    font-size: 1rem;
+    padding: 4px;
+    height: 25px;
+  }
+}
+@media (min-width: 668px) and (max-width: 1024px) {
+  .pagination {
+    gap: 15px;
+    max-width: 100%;
+  }
+  .list-item .page-link {
+    background-color: #ff0099;
+    min-width: 35px;
+    height: 35px;
+  }
+  .list-dots {
+    min-width: 35px;
+    height: 35px;
+  }
+}

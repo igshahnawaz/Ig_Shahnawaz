@@ -11,11 +11,13 @@
   align-items: center;
   height: 35px;
   font-size: 1.2rem;
-  color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   border-top: 2px solid rgba(255, 255, 255, 0.26);
   border-bottom: 2px solid rgba(255, 255, 255, 0.26);
+}
+.homeTalk {
+  color: rgb(246, 233, 237);
 }
 .contactArea {
   display: flex;
@@ -32,7 +34,7 @@
 .homeDisc {
   margin-right: 1.5rem;
   font-size: 1.2rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   cursor: pointer;
@@ -50,9 +52,11 @@
   background-color: rgba(166, 0, 255, 0.778);
   height: 35px;
   font-size: 1.2rem;
-  color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
+}
+.homeReminder p {
+  color: white;
 }
 .homeInfo {
   display: flex;
@@ -80,10 +84,11 @@
   padding: 0.5rem;
   color: white;
 }
-.footerLogo {
-  font-size: 1.2rem;
-  font-weight: 900;
-  font-family: "Roboto", sans-serif;
+.samFooter {
+  font-size: 1.1rem;
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   margin-right: 1rem;
   cursor: pointer;
   background: linear-gradient(
@@ -106,14 +111,14 @@
   .contactArea {
     display: block;
     height: auto;
-    background: #27c0dfea;
+    background: aqua;
   }
   .homeRequest,
   .homeAbout,
   .homeContact,
   .homeDisc {
     margin-right: 0;
-    padding:0;
+    padding: 0;
     color: white;
     font-size: 0.9rem;
   }
@@ -127,15 +132,17 @@
     display: flex;
     align-items: center;
   }
-  .homeAbout p,.homeContact p,.homeDisc p{
+  .homeAbout p,
+  .homeContact p,
+  .homeDisc p {
     width: 100%;
   }
   .homeAbout p:hover,
   .homeRequest p:hover,
   .homeContact p:hover,
   .homeDisc p:hover {
-    background-color: rgb(225, 0, 255);
-    color: black;
+    background-color: rgb(255, 0, 157);
+    color: white;
   }
   .homeReminder {
     padding: 4px;
@@ -168,7 +175,7 @@
     font-size: 0.9rem;
   }
   .footerLogo {
-    font-size: 1.2rem;
+    font-size: 0rem;
     font-weight: 900;
     font-family: "Roboto", sans-serif;
     margin-right: 1rem;

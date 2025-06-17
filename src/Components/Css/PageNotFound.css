@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.pageAllContainer {
+  max-width: 1580px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.pageContainer {
+  margin: auto;
+  margin-top: 8px;
+}
+.webLogo {
+    text-align: center;
+    margin-bottom: .5rem;
+  background: linear-gradient(
+    to right,
+    rgb(0, 255, 38),
+    #ff0099,
+    rgb(255, 128, 0)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 32px;
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.goHome {
+  background: linear-gradient(
+    to right,
+    rgb(0, 255, 38),
+    rgb(255, 0, 153),
+    rgb(255, 128, 0)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.2rem;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  text-decoration: solid rgb(255, 255, 255) underline;
+}
+.unavailablePage {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.availablePage {
+  color: #ff0099;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.thankYou {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.goHomepage{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700; 
+    text-align: center;
+    
+}
+
+@media (max-width:667px){
+    .pageAllContainer {
+        max-width: 100%;
+        margin-left: 2rem;
+      }   
+      .webLogo {
+        text-align: left;
+        margin-bottom: .2rem;
+      }
+      .unavailablePage {
+        margin: .2rem 0.2rem;
+      }
+      .availablePage {
+        margin: 0.2rem 0.2rem;
+      }
+      .thankYou {
+        margin: 0.2rem 0.2rem;
+      }
+      .goHomepage{
+        margin: 0.2rem 0.2rem;
+          
+      }
+}
+@media (min-width:668px) and (max-width:1024px){
+
+}

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.allCardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.searchNotFound {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+.searchImageCircle {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  position: relative;
+}
+.searchResultFound {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.noResult {
+  color: #ff0099;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-align: center;
+}
+.searchResult {
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.searchImage {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background-color: #ffffff07;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.puppyImage {
+  width: 500px;
+  height: 350px;
+}
+.searchTitle {
+  position: absolute;
+  bottom: 5px;
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #ff0099;
+  padding: 4px 1.5rem;
+  border-radius: 50px;
+
+  color: rgb(0, 0, 0);
+}
+.searchTitle span {
+  color: white;
+}
+
+@media (max-width: 667px) {
+  .searchResultFound {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  .searchNotFound {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .searchResultFound {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  .searchResult {
+    display: block;
+    line-height: 0.7cm;
+    gap: 25%;
+    font-weight: 800;
+    font-size: 0.85rem;
+  }
+  .noResult {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .searchImageCircle {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    position: relative;
+  }
+  .searchImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #ffffff07;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .puppyImage {
+    width: 250px;
+    height: 250px;
+  }
+  .searchTitle {
+    bottom: 5px;
+    font-size: 0.9rem;
+    padding: 4px 1rem;
+  }
+}
+@media (min-width: 668px) and (max-width: 1024px) {
+  .noResult{
+    margin-top: 1rem;
+  }
+  .searchTitle {
+    font-size: 1.5rem;
+  }
+}

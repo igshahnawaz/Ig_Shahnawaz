@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import { homeCards } from "../Data/HomeCardData";
+import Pagination from "./Pagination";
 import "../Css/HomeCard.css";
 import { Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
-import { bollyData } from "../Data/BollyData";
 
 function Bollywood() {
   const underStyle = {
@@ -14,33 +15,32 @@ function Bollywood() {
     display: "flex",
     flexWrap: "wrap",
   };
-  let page_size = 20;
-  let [currPage, setCurrPage] = useState(1);
-  let startIndex = (currPage - 1) * page_size;
-  let endIndex = page_size + startIndex;
-  let myBollyData = bollyData.slice(startIndex, endIndex);
-  let endPage = Math.ceil(bollyData.length / page_size);
-  let prePage = () => {
-    setCurrPage(currPage - 1);
-  };
-  let nextPage = () => {
-    setCurrPage(currPage + 1);
-  };
 
-  let preStyle = {
-    display: currPage <= 1 ? "none" : "flex",
-  };
-
-  let nextStyle = {
-    display: currPage === endPage ? "none" : "flex",
-  };
-
+  const [page, setPage] = useState(1);
+  const [limit, setLimit] = useState(20);
+  let bollyData = homeCards.filter((val) =>
+    val.homeCat.toLowerCase().includes("bollywood")
+  );
+  let bollyPageLength = bollyData.length;
+  let totalPage = Math.ceil(bollyPageLength / limit);
+  let firstIndex = (page - 1) * limit;
+  let endIndex = firstIndex + limit;
+  function handlePageChange(value) {
+    if (value === "Next") {
+      setPage(page + 1);
+    } else if (value === "Previous") {
+      setPage(page - 1);
+    } else {
+      setPage(value);
+    }
+  }
+  let filterBollyData = bollyData.slice(firstIndex, endIndex);
   return (
     <>
       <Header />
       <Sidebar />
       <div className="bollyContainer" style={containerStyle}>
-        {myBollyData.map((val, i) => {
+        {filterBollyData.map((val, i) => {
           return (
             <div className="homeCardContainer" key={`bolly${i}`}>
               <div className="homeCard" tabIndex={0}>
@@ -99,19 +99,13 @@ function Bollywood() {
           );
         })}
       </div>
-      <div className="homeNext">
-        <div
-          className="homeNextPage"
-          style={{ gap: "20px", margin: "1.8rem 0" }}
-        >
-          <p onClick={prePage} style={preStyle}>
-            Previous
-          </p>
-          <p onClick={nextPage} style={nextStyle}>
-            Next
-          </p>
-        </div>
-      </div>
+      <Pagination
+        totalPage={totalPage}
+        page={page}
+        limit={limit}
+        siblings={1}
+        onPageChange={handlePageChange}
+      />
       <Footer />
     </>
   );

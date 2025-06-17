@@ -12,7 +12,7 @@
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .allCardsContainer {
   margin-top: .2rem;
@@ -36,7 +36,7 @@
   font-size: 1.2rem;
   position: absolute;
   display: flex;
-  color: rgb(255, 0, 238);
+  color: #ff0099;
   font-weight: 900;
   z-index: 2;
   line-height: 0.6cm;
@@ -225,7 +225,6 @@
   font-weight: 600;
   color: #ff0099;
 }
-
 @media (max-width: 667px) {
   .homeCardContainer,
   .bollyContainer,

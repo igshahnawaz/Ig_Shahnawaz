@@ -8,8 +8,16 @@ export default function Header() {
   const underStyle = {
     textDecoration: "none",
   };
-  let searchVal;
-  let navigate = useNavigate();
+  const navigate = useNavigate();
+  let [movieSearch, setMovieSearch] = useState("");
+
+  let inputSearch = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      setMovieSearch(e.target.value.toLowerCase().trim().replace(/\s+/g, "-"));
+      navigate(`/you-are-searching-for/${movieSearch}`);
+    }
+  };
   const focusHandle = () => {
     setInputColor(!inputColor);
   };
@@ -38,9 +46,15 @@ export default function Header() {
               placeholder="What are you looking for ?"
               onFocus={focusHandle}
               onBlur={blurHandle}
+              onKeyDown={inputSearch}
+              onChange={(e) =>
+                setMovieSearch(
+                  e.target.value.toLowerCase().trim().replaceAll(" ", "-")
+                )
+              }
             />
             <Link
-              to={`/searching-for/`}
+              onClick={() => navigate(`/you-are-searching-for/${movieSearch}`)}
               className="searchIcon"
               style={{
                 display: "flex",

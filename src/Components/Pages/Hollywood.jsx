@@ -3,7 +3,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Sidebar from "./Sidebar";
 import { Link } from "react-router-dom";
-import { hollyData } from "../Data/HollyData";
+import { homeCards } from "../Data/HomeCardData";
+import Pagination from "./Pagination";
 
 function Hollywood() {
   const underStyle = {
@@ -13,33 +14,32 @@ function Hollywood() {
     display: "flex",
     flexWrap: "wrap",
   };
+  const [page, setPage] = useState(1);
+  const [limit, setLimit] = useState(20);
+  let hollyData = homeCards.filter((val) =>
+    val.homeCat.toLowerCase().includes("hollywood-english")
+  );
+  let hollyPageLength = hollyData.length;
+  let totalPage = Math.ceil(hollyPageLength / limit);
+  let firstIndex = (page - 1) * limit;
+  let endIndex = firstIndex + limit;
+  function handlePageChange(value) {
+    if (value === "Next") {
+      setPage(page + 1);
+    } else if (value === "Previous") {
+      setPage(page - 1);
+    } else {
+      setPage(value);
+    }
+  }
+  let filterHollyData = hollyData.slice(firstIndex, endIndex);
 
-  let page_size = 20;
-  let [currPage, setCurrPage] = useState(1);
-  let startIndex = (currPage - 1) * page_size;
-  let endIndex = page_size + startIndex;
-  let myhollyData = hollyData.slice(startIndex, endIndex);
-  let endPage = Math.ceil(hollyData.length / page_size);
-  let prePage = () => {
-    setCurrPage(currPage - 1);
-  };
-  let nextPage = () => {
-    setCurrPage(currPage + 1);
-  };
-
-  let preStyle = {
-    display: currPage <= 1 ? "none" : "flex",
-  };
-
-  let nextStyle = {
-    display: currPage === endPage ? "none" : "flex",
-  };
   return (
     <>
       <Header />
       <Sidebar />
       <div className="punjabiContainer" style={containerStyle}>
-        {myhollyData.map((val, i) => {
+        {filterHollyData.map((val, i) => {
           return (
             <div className="homeCardContainer" key={`holly${i}`}>
               <div className="homeCard" tabIndex={0}>
@@ -98,19 +98,13 @@ function Hollywood() {
           );
         })}
       </div>
-      <div className="homeNext">
-        <div
-          className="homeNextPage"
-          style={{ gap: "20px", margin: "1.8rem 0" }}
-        >
-          <p onClick={prePage} style={preStyle}>
-            Previous
-          </p>
-          <p onClick={nextPage} style={nextStyle}>
-            Next
-          </p>
-        </div>
-      </div>
+      <Pagination
+        totalPage={totalPage}
+        page={page}
+        limit={limit}
+        siblings={1}
+        onPageChange={handlePageChange}
+      />
       <Footer />
     </>
   );

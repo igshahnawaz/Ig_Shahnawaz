@@ -93,11 +93,11 @@
 .mdChoose {
   color: rgba(255, 255, 255, 0.608);
 }
-.md480p,
-.md720p,
-.md1080p,
-.md1440p,
-.md2160p {
+.md480p p,
+.md720p p,
+.md1080p p,
+.md1440p p,
+.md2160p p {
   background: linear-gradient(to right, #ff0099, rgb(255, 213, 0));
   width: 140px;
   padding: 8px;
@@ -108,7 +108,7 @@
   font-size: 1.5rem;
   font-weight: 700;
   border-radius: 16px;
-  color: white;
+  color: rgba(248, 255, 252, 0.91);
 }
 
 @media (max-width: 667px) {
