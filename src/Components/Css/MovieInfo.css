@@ -50,7 +50,8 @@
 .mdSubstitleArea,
 .mdGenreArea {
   display: flex;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.438);
+  width: 100%;
+  border-bottom: 1px solid rgb(255, 255, 255);
   margin-top: 0.5rem;
 }
 .mdStoryArea {
@@ -66,7 +67,7 @@
   font-size: 1.2rem;
   font-weight: 700;
   margin-right: 1rem;
-  color: #ff0099;
+  color: #ffffff;
   width: 120px;
   text-align: left;
 }
@@ -93,6 +94,11 @@
 .mdChoose {
   color: rgba(255, 255, 255, 0.608);
 }
+.mdSecTitle {
+  color: #ff0099;
+  width: 700px;
+  margin-top: 1.5rem;
+}
 .md480p p,
 .md720p p,
 .md1080p p,
@@ -101,6 +107,7 @@
   background: linear-gradient(to right, #ff0099, rgb(255, 213, 0));
   width: 140px;
   padding: 8px;
+  height: auto;
   margin-top: 2.5rem;
   display: flex;
   align-items: center;
@@ -108,7 +115,18 @@
   font-size: 1.5rem;
   font-weight: 700;
   border-radius: 16px;
-  color: rgba(248, 255, 252, 0.91);
+  color: rgba(1, 1, 1, 0.91);
+  box-shadow: 2px 2px 10px 5px rgb(0, 255, 30);
+  gap: 10px;
+  margin: 32px;
+}
+.md480p p:hover,
+.md720p p:hover,
+.md1080p p:hover,
+.md1440p p:hover,
+.md2160p p:hover {
+  box-shadow: 2px 2px 10px 5px rgb(255, 0, 132);
+  color: white;
 }
 
 @media (max-width: 667px) {
@@ -180,6 +198,25 @@
   .mdChoose {
     color: rgba(255, 255, 255, 0.608);
   }
+  .md480p p,
+  .md720p p,
+  .md1080p p,
+  .md1440p p,
+  .md2160p p {
+    background: linear-gradient(to right, #ff0099, rgb(255, 213, 0));
+    width: 120px;
+    font-size: 1.35rem;
+    height: 50px;
+    margin: 1rem;
+  }
+  .mdDownloadArea{
+    width: 100%;
+  }
+  .mdSecTitle{
+    font-size: 1.4rem;
+    margin: 1.5rem 1.2rem;
+    width: 100%;
+  }
 }
 
 @media (min-width: 668px) and (max-width: 1024px) {
@@ -230,5 +267,8 @@
   .mdSubstitleArea p,
   .mdGenreArea p {
     margin-left: 1rem;
+  }
+  .mdSecTitle{
+    width: 80%;
   }
 }

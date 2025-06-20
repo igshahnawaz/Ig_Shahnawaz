@@ -85,6 +85,7 @@
   font-weight: 600;
   margin-left: 1rem;
   cursor: pointer;
+  box-shadow: 1px 1px 8px 2px  rgb(0, 255, 10);
 }
 .headerHolly p,
 .headerBolly p,

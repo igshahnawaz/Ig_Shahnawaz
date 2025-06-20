@@ -10,6 +10,9 @@ function MovieInfo() {
   let uselocation = useLocation();
   let currId = uselocation.pathname.split("/")[2];
   let currData = homeCards.filter((v) => v.id === currId)[0];
+  const underStyle = {
+    textDecoration: "none",
+  };
   return (
     <>
       <Header />
@@ -59,36 +62,56 @@ function MovieInfo() {
         </div>
         <div className="mdDownloadArea">
           <h1 className="mdChoose">Choose the Quality Given Below:</h1>
-          <h2 className="mdTitleSec">{currData.homeSecTitle}</h2>
+          <h2 className="mdSecTitle">{currData.homeSecTitle}</h2>
           <div
             className="md480p"
-            style={{ display: currData.home480p ? "flex" : "none" }}
+            style={{
+              display: `${currData.home480p != "" ? "flex" : "none"} `,
+            }}
           >
-            <p>{currData.home480p}</p>
+            <a href={currData.home480pLink} style={underStyle}>
+              <p>{currData.home480p}</p>
+            </a>
           </div>
           <div
             className="md720p"
-            style={{ display: currData.home720p ? "flex" : "none" }}
+            style={{
+              display: `${currData.home720p != "" ? "flex" : "none"} `,
+            }}
           >
-            <p>{currData.home720p}</p>
+            <a href={currData.home720pLink} style={underStyle}>
+              <p>{currData.home720p}</p>
+            </a>
           </div>
           <div
             className="md1080p"
-            style={{ display: currData.home1080p ? "flex" : "none" }}
+            style={{
+              display: `${currData.home1080p != "" ? "flex" : "none"} `,
+            }}
           >
-            <p>{currData.home1080p}</p>
+            <a href={currData.home1080pLink} style={underStyle}>
+              <p>{currData.home1080p}</p>
+            </a>
           </div>
           <div
             className="md1440p"
-            style={{ display: currData.home1440p ? "flex" : "none" }}
+            style={{
+              display: `${currData.home1440p != "" ? "flex" : "none"} `,
+            }}
           >
-            <p>{currData.home1440p}</p>
+            <a href={currData.home1440pLink} style={underStyle}>
+              <p>{currData.home1440p}</p>
+            </a>
           </div>
           <div
             className="md2160p"
-            style={{ display: currData.home2160p ? "flex" : "none" }}
+            style={{
+              display: `${currData.home2160p != "" ? "flex" : "none"} `,
+            }}
           >
-            <p>{currData.home2160p}</p>
+            <a href={currData.home2160pLink} style={underStyle}>
+              <p>{currData.home2160p}</p>
+            </a>
           </div>
         </div>
       </div>
