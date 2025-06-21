@@ -29,9 +29,9 @@ function PageNotFound() {
             >
               >> 
             </span> 
-            click here to go
+            click here to go 
             <Link className="goHome" to={"/"}>
-              HomePage
+               HomePage
             </Link>
           </div>
         </div>

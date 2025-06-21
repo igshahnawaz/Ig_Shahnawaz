@@ -38,6 +38,7 @@
   font-size: 1.2rem;
   font-weight: 900;
   font-family: "Roboto", sans-serif;
+  margin-left: 0.2rem;
   text-decoration: solid rgb(255, 255, 255) underline;
 }
 .unavailablePage {
