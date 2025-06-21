@@ -1,4 +1,6 @@
 import Footer from "./Footer";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Header from "./Header";
 import "../Css/HomeCard.css";
 import "../Css/Pagination.scss";
