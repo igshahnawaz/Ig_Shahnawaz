@@ -3,7 +3,7 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "../src/Components/Imgs/samsmoviesIcon.png",
+      "src": "../src/Components/Imgs/samsmoviesWebLogo.jpg",
       "type": "image/x-icon"
     }
   ],

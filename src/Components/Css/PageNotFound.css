@@ -72,6 +72,7 @@
       .webLogo {
         text-align: left;
         margin-bottom: .2rem;
+        font-size: 26px;
       }
       .unavailablePage {
         margin: .2rem 0.2rem;
@@ -86,7 +87,4 @@
         margin: 0.2rem 0.2rem;
           
       }
-}
-@media (min-width:668px) and (max-width:1024px){
-
 }
