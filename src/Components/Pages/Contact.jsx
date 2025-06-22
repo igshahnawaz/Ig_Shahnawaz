@@ -28,19 +28,19 @@ function Contact() {
             <p>For general inquiries or support, reach out to us at:</p>
             <b>
               <a
-                href="mailto:support@samsmovies.com"
+                href="mailto:shahnawaz799200@gmail.com"
                 style={{ color: "rgb(255,0,195)", textDecoration: "none" }}
               >
-                support@samsmovies.com
+              shahnawaz799200@gmail.com
               </a>
             </b>
             <p>For business partnerships and collaborations, contact:</p>
             <b>
               <a
-                href="mailto:business@samsmovies.com"
+                href="mailto:samsmovies@samsmovies.com"
                 style={{ color: "rgb(255, 0, 195)", textDecoration: "none" }}
               >
-                business@samsmovies.com
+                samsmovies@samsmovies.com
               </a>
             </b>
           </div>
