@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "samsmovies",
+  "name": "samsmovies.com",
   "icons": [
     {
       "src": "../src/Components/Imgs/samsmoviesWebLogo.jpg",

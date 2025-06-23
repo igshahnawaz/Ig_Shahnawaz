@@ -18,7 +18,7 @@ function Sidebar() {
   let overlayStyle = {
     display: `${showSide ? "none" : "block"}`,
   };
-  let rootId = document.querySelector('#root')
+  let rootId = document.getElementById('samsmovies')
   showSide ? rootId.style.position='':rootId.style.position='relative'
   const hideSide = () => {
     setShowSide(!showSide);

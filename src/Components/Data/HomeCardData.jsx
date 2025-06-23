@@ -4,7 +4,8 @@ export let homeCards = [
     homeSrc:
       "https://i.pinimg.com/736x/b4/6f/3d/b46f3d8e25513357a183a1766d0bb0ec.jpg",
     homeFirstTitle: "Ra one 2011 Hindi Movie PRE HDRip 480p 720p 1080p",
-    homeSecTitle: "Ra one 2011 Hindi Movie PRE HDRip 480p 720p 1080p Download with English substitle",
+    homeSecTitle:
+      "Ra one 2011 Hindi Movie PRE HDRip 480p 720p 1080p Download with English substitle",
     homeTitle: "Ra one",
     homeQuality: "BlueRay",
     homeDownload: "Download Movie",
@@ -35,7 +36,8 @@ export let homeCards = [
     homeSrc:
       "https://m.media-amazon.com/images/M/MV5BOWEzZTQ4NzYtZGY5ZS00M2VmLWI5OWItZjZiM2QyYTRmMTkwXkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
     homeFirstTitle: "Jaat 2025 Hindi Movie HDTS 480p 720p 1080p",
-    homeSecTitle: "Jaat 2025 Hindi Movie HDTS 480p 720p 1080p download samsmovies.com",
+    homeSecTitle:
+      "Jaat 2025 Hindi Movie HDTS 480p 720p 1080p download samsmovies.com",
     homeTitle: "Jaat",
     homeQuality: "HDTS",
     homeDownload: "Download Movie",
@@ -99,9 +101,10 @@ export let homeCards = [
     homeSrc:
       "https://i.pinimg.com/736x/84/fa/79/84fa794134a58e9291bfe4f2170b1757.jpg",
     homeFirstTitle: "Sikandar 2025 Hindi Movie HDTS 720p 1080p",
-    homeSecTitle: "Sikandar 2025 Hindi Movie HDTS 720p 1080p Download samsmovies.com",
+    homeSecTitle:
+      "Sikandar 2025 Hindi Movie WebRip 720p 1080p Download samsmovies.com",
     homeTitle: "Sikandar",
-    homeQuality: "HDTS",
+    homeQuality: "WebRip",
     homeDownload: "Download Now",
     homeMore: "...more",
     homeYear: "2025",
@@ -111,7 +114,7 @@ export let homeCards = [
     homeDirector: "A.R. Murugadoss",
     homeStar: "Salman Khan, Rashmika Mandana,",
     homeLang: "Hindi",
-    homeSubs: "Na",
+    homeSubs: "English",
     homeGenre: "Adventure",
     homeCat: "bollywood",
     home480p: "480p",
@@ -119,11 +122,11 @@ export let homeCards = [
     home1080p: "1080p",
     home1440p: "1440p",
     home2160p: "2160p",
-    home480pLink: "",
-    home720pLink: "",
-    home1080pLink: "",
-    home1440pLink: "",
-    home2160pLink: "",
+    home480pLink: "https://new19.gdtot.dad/file/302658745",
+    home720pLink: "https://new19.gdtot.dad/file/1295734531",
+    home1080pLink: "https://new19.gdtot.dad/file/2732757789",
+    home1440pLink: "https://new19.gdtot.dad/file/5629225110",
+    home2160pLink: "https://new19.gdtot.dad/file/5629225110",
   },
   {
     id: "sanam-teri-kasam-2016",

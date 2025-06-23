@@ -19,7 +19,7 @@ import About from "./Components/Pages/About";
 import SearchMovie from "./Components/Pages/SearchMovie";
 import PageNotFound from "./Components/Pages/PageNotFound";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("samsmovies"));
 let routes = createBrowserRouter([
   {
     path: "/",
