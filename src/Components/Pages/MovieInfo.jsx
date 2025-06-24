@@ -69,7 +69,7 @@ function MovieInfo() {
               <div
                 className="md480p"
                 style={{
-                  display: `${currData.home480p != "" ? "flex" : "none"} `,
+                  display: `${currData.home480p !== "" ? "flex" : "none"} `,
                 }}
               >
                 <a href={currData.home480pLink} style={underStyle}>
@@ -79,7 +79,7 @@ function MovieInfo() {
               <div
                 className="md720p"
                 style={{
-                  display: `${currData.home720p != "" ? "flex" : "none"} `,
+                  display: `${currData.home720p !== "" ? "flex" : "none"} `,
                 }}
               >
                 <a href={currData.home720pLink} style={underStyle}>
@@ -89,7 +89,7 @@ function MovieInfo() {
               <div
                 className="md1080p"
                 style={{
-                  display: `${currData.home1080p != "" ? "flex" : "none"} `,
+                  display: `${currData.home1080p !== "" ? "flex" : "none"} `,
                 }}
               >
                 <a href={currData.home1080pLink} style={underStyle}>
@@ -99,7 +99,7 @@ function MovieInfo() {
               <div
                 className="md1440p"
                 style={{
-                  display: `${currData.home1440p != "" ? "flex" : "none"} `,
+                  display: `${currData.home1440p !== "" ? "flex" : "none"} `,
                 }}
               >
                 <a href={currData.home1440pLink} style={underStyle}>
@@ -109,7 +109,7 @@ function MovieInfo() {
               <div
                 className="md2160p"
                 style={{
-                  display: `${currData.home2160p != "" ? "flex" : "none"} `,
+                  display: `${currData.home2160p !== "" ? "flex" : "none"} `,
                 }}
               >
                 <a href={currData.home2160pLink} style={underStyle}>

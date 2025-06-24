@@ -768,11 +768,11 @@ export let homeCards = [
     home480p: "480p",
     home720p: "720p",
     home1080p: "1080p",
+    home1440p: "",
+    home2160p: "",
     home480pLink: "",
     home720pLink: "",
     home1080pLink: "",
-    home1440pLink: "",
-    home2160pLink: "",
   },
 ];
 
