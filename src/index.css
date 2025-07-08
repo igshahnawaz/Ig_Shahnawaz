@@ -17,13 +17,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-#root {
+#samsmovies{
   max-width: 1580px;
   margin: auto;
-}
-@media (max-width: 667px) {
-  width: 100%;
-}
-@media (min-width: 668px) and (max-width: 1024px) {
-  width: 100%;
+  overflow-x: hidden;
 }

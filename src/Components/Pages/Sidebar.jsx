@@ -9,7 +9,7 @@ function Sidebar() {
   };
   let sidebarStyle = {
     transform: `translateX(${showSide ? -101 : 0}%)`,
-    transition: showSide ? '0s' :'0.5s',
+    transition: showSide ? "0s" : "0.5s",
   };
   const sideClose = () => {
     setShowSide(!showSide);
@@ -18,8 +18,10 @@ function Sidebar() {
   let overlayStyle = {
     display: `${showSide ? "none" : "block"}`,
   };
-  let rootId = document.getElementById('samsmovies.com')
-  showSide ? rootId.style.position='':rootId.style.position='relative'
+  let rootId = document.getElementById("samsmovies");
+  showSide
+    ? (rootId.style.position = "")
+    : (rootId.style.position = "relative");
   const hideSide = () => {
     setShowSide(!showSide);
   };

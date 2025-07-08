@@ -13,6 +13,16 @@ import { homePageData, homePageLength } from "../Data/HomeCardData";
 import React, { useState } from "react";
 import HomeCard from "../Pages/HomeCard.jsx";
 import Pagination from "./Pagination";
+import { render } from "@testing-library/react";
+
+window.onloadTurnstileCallback = function () {
+  render("#cloudFlare", {
+    sitekey: "<0x4AAAAAABiCkvjtN1u7qtLM>",
+    callback: function (token) {
+      console.log(`Challenge Success ${token}`);
+    },
+  });
+};
 
 function Homepage() {
   const [page, setPage] = useState(1);
@@ -40,6 +50,7 @@ function Homepage() {
         firstIndex={firstIndex}
         endIndex={endIndex}
       />
+
       <Pagination
         totalPage={totalPage}
         page={page}
@@ -47,6 +58,7 @@ function Homepage() {
         siblings={1}
         onPageChange={handlePageChange}
       />
+      <div id="claudFlare"></div>
       <Footer />
     </div>
   );
