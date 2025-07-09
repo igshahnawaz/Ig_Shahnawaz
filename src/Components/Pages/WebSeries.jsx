@@ -5,7 +5,6 @@ import Sidebar from "./Sidebar";
 import { Link } from "react-router-dom";
 import { homeCards } from "../Data/HomeCardData";
 import Pagination from "./Pagination";
-
 function WebSeries() {
   const underStyle = {
     textDecoration: "none",
