@@ -54,8 +54,12 @@ export default function Scalable() {
                 className="scaleLink"
                 style={underStyle}
               >
-                <div className="scaleImage" key={`scaleImage${index}`} style={sliderStyle}>
-                  <img src={imgs.homeSrc} alt="movie-poseter" />
+                <div
+                  className="scaleImage"
+                  key={`scaleImage${index}`}
+                  style={sliderStyle}
+                >
+                  <img src={imgs.homeScaleSrc} alt="movie-poseter" />
                 </div>
               </Link>
             );

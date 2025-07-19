@@ -1,5 +1,35 @@
 export let homeCards = [
   {
+    id: "saiyaara-2025",
+    homeSrc:
+      "https://media5.bollywoodhungama.in/wp-content/uploads/2025/07/Saiyaara-001-1.jpg",
+    homeFirstTitle: "Saiyaara 2025 Hindi Movie HDTS 480p 720p 1080p",
+    homeSecTitle:
+      "Saiyaara 2025 Hindi Movie HDTS 480p 720p 1080p Download samasmovies.xyz",
+    homeTitle: "Saiyaara",
+    homeQuality: "HDTS",
+    homeDownload: "Download Movie",
+    homeMore: "...more",
+    homeYear: "2025",
+    homeLength: "150 mins",
+    homeDetails:
+      "Passionate lovers navigate a rollercoaster romance, facing euphoric highs and crushing lows while desperately clinging to their tumultuous bond.",
+    homeDirector: "Mohit Suri",
+    homeStar: "Ahaan Panday, Aneet Padda",
+    homeLang: "Hindi",
+    homeGenre: "Musical, Romance",
+    homeSubs: "Na",
+    homeCat: "bollywood",
+    home480p: "480p",
+    home720p: "720p",
+    home1080p: "1080p",
+    home2160p: "2160p",
+    home480pLink: "https://new20.gdtot.dad/file/518596685",
+    home720pLink: "https://new20.gdtot.dad/file/1221605278",
+    home1080pLink: "https://new20.gdtot.dad/file/2591514944",
+    home2160pLink: "https://new20.gdtot.dad/file/9252588416",
+  },
+  {
     id: "ra-one-2011",
     homeSrc:
       "https://i.pinimg.com/736x/b4/6f/3d/b46f3d8e25513357a183a1766d0bb0ec.jpg",
@@ -25,8 +55,8 @@ export let homeCards = [
     home1080p: "1080p",
     home1440p: "1440p",
     home2160p: "2160p",
-    home480pLink: "/",
-    home720pLink: "/",
+    home480pLink: "",
+    home720pLink: "",
     home1080pLink: "",
     home1440pLink: "",
     home2160pLink: "",
@@ -164,7 +194,7 @@ export let homeCards = [
     homeSrc:
       "https://i.pinimg.com/736x/31/b1/ea/31b1ea4c9e3d8302460b69f00e31c74a.jpg",
     homeFirstTitle:
-      "Pushpa 2 The Rule 2024 NF WebRip RELOADED South Movie Hindi 480p 720p 1080p 2160p ",
+      "Pushpa 2 The Rule 2024 NF WebRip RELOADED South Movie Hindi Dubbed 480p 720p 1080p 2160p ",
     homeTitle: "Pushpa 2",
     homeQuality: "HDRip",
     homeDownload: "Download Now",
@@ -467,7 +497,7 @@ export let homeCards = [
     homeSrc:
       "https://i.pinimg.com/736x/9c/a2/91/9ca291ac23b69ed5580cdf6e73fd913d.jpg",
     homeFirstTitle:
-      "KGF Chapter 2 (2022) Hindi Dubbed BlueRay 720p HD Hindi-Subs",
+      "KGF Chapter 2 (2022) Hindi Dubbed BlueRay 720p HD English-Subs",
     homeTitle: "KGF Chapter 2",
     homeQuality: "BlueRay",
     homeDownload: "Download Now",
