@@ -41,7 +41,7 @@ function Punjabi() {
       <div className="punjabiContainer" style={containerStyle}>
         {filterPunjabiData.map((val, i) => {
           return (
-            <div className="homeCardContainer" key={`punjabi${i}`}>
+             <div className="homeCardContainer" key={`webSeries${i}`}>
               <div className="homeCard" tabIndex={0}>
                 <div className="imageCard">
                   <img

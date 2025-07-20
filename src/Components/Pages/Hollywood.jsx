@@ -38,7 +38,7 @@ function Hollywood() {
     <>
       <Header />
       <Sidebar />
-      <div className="punjabiContainer" style={containerStyle}>
+      <div className="hollyContainer" style={containerStyle}>
         {filterHollyData.map((val, i) => {
           return (
             <div className="homeCardContainer" key={`holly${i}`}>

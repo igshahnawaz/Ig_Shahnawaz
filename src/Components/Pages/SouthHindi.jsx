@@ -39,7 +39,7 @@ function SouthHindi() {
     <>
       <Header />
       <Sidebar />
-      <div className="southMovies-contaier" style={containerStyle}>
+      <div className="southHindiContainer" style={containerStyle}>
         {filterSouthHindiData.map((val, i) => {
           return (
             <div className="homeCardContainer" key={`southHindi${i}`}>
