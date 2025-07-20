@@ -89,7 +89,7 @@ function MovieInfo() {
               <div
                 className="md1080p"
                 style={{
-                  display: `${currData.home1080p !== "" ? "flex" : "none"} `,
+                  display: `${currData.home1080p !== ""? "flex" : "none"} `,
                 }}
               >
                 <a href={currData.home1080pLink} style={underStyle}>
