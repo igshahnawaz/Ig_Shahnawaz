@@ -11,6 +11,7 @@ function MovieInfo() {
   let uselocation = useLocation();
   let currId = uselocation.pathname.split("/")[2];
   let currData = homeCards.filter((v) => v.id === currId)[0];
+  console.log(currId);
   const underStyle = {
     textDecoration: "none",
   };
@@ -89,7 +90,7 @@ function MovieInfo() {
               <div
                 className="md1080p"
                 style={{
-                  display: `${currData.home1080p !== ""? "flex" : "none"} `,
+                  display: `${currData.home1080p !== "" ? "flex" : "none"} `,
                 }}
               >
                 <a href={currData.home1080pLink} style={underStyle}>

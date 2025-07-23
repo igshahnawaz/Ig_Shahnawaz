@@ -1,6 +1,7 @@
 export let homeCards = [
   {
-    id: "Saiyaara-2025-28",
+    movieNumber: "28",
+    id: "saiyaara-2025",
     homeSrc:
       "https://media5.bollywoodhungama.in/wp-content/uploads/2025/07/Saiyaara-001-1.jpg",
     homeFirstTitle: "Saiyaara 2025 Hindi Movie HDTS 480p 720p 1080p",
@@ -31,7 +32,8 @@ export let homeCards = [
     home2160pLink: "https://new20.gdtot.dad/file/9252588416",
   },
   {
-    id: "maa-2025-27",
+    movieNumber: "27",
+    id: "maa-2025",
     homeSrc:
       "https://i.pinimg.com/736x/fe/e4/b7/fee4b755574b7d64f080426c92c89666.jpg",
     homeFirstTitle:
@@ -62,7 +64,8 @@ export let homeCards = [
     home1080pLink: "https://new20.gdtot.dad/file/2573915046",
   },
   {
-    id: "stree-2025-26",
+    movieNumber: "26",
+    id: "stree-2025",
     homeSrc:
       "https://i.pinimg.com/736x/f9/43/a8/f943a81c57649aafb367ad92f4345a7f.jpg",
     homeFirstTitle:
@@ -96,7 +99,8 @@ export let homeCards = [
     home2160pLink: "https://new20.gdtot.dad/file/8524307554",
   },
   {
-    id: "ra-one-2011-25",
+    movieNumber: "25",
+    id: "ra-one-2011",
     homeSrc:
       "https://i.pinimg.com/736x/b4/6f/3d/b46f3d8e25513357a183a1766d0bb0ec.jpg",
     homeFirstTitle: "Ra one 2011 Hindi Movie PRE HDRip 480p 720p 1080p",
@@ -128,7 +132,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "jaat-2025-24",
+    movieNumber: "24",
+    id: "jaat-2025",
     homeSrc:
       "https://m.media-amazon.com/images/M/MV5BOWEzZTQ4NzYtZGY5ZS00M2VmLWI5OWItZjZiM2QyYTRmMTkwXkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
     homeFirstTitle: "Jaat 2025 Hindi Movie webRip 480p 720p 1080p 2160p",
@@ -160,7 +165,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "martin-2024-23",
+    movieNumber: "23",
+    id: "martin-2024",
     homeSrc:
       "https://i.pinimg.com/736x/31/ba/ff/31baff6a061faf0e933412ff8de1ad7f.jpg",
     homeFirstTitle:
@@ -193,10 +199,11 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "sikandar-2025-22",
+    movieNumber: "22",
+    id: "sikandar-2025",
     homeSrc:
       "https://i.pinimg.com/736x/84/fa/79/84fa794134a58e9291bfe4f2170b1757.jpg",
-    homeFirstTitle: "Sikandar 2025 Hindi Movie HDTS 720p 1080p",
+    homeFirstTitle: "Sikandar 2025 Hindi Movie WebRip 720p 1080p",
     homeSecTitle:
       "Sikandar 2025 Hindi Movie WebRip 720p 1080p Download samsmovies.com",
     homeTitle: "Sikandar",
@@ -225,7 +232,8 @@ export let homeCards = [
     home2160pLink: "https://new19.gdtot.dad/file/5629225110",
   },
   {
-    id: "sanam-teri-kasam-2016-21",
+    movieNumber: "21",
+    id: "sanam-teri-kasam-2016",
     homeSrc:
       "https://i.pinimg.com/736x/dd/61/64/dd6164c99e21b73a4a5b6471b77c1adf.jpg",
     homeFirstTitle:
@@ -256,7 +264,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "pushpa-2-2025-20",
+    movieNumber: "20",
+    id: "pushpa-2-2025",
     homeSrc:
       "https://i.pinimg.com/736x/31/b1/ea/31b1ea4c9e3d8302460b69f00e31c74a.jpg",
     homeFirstTitle:
@@ -287,7 +296,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "chhava-2025-19",
+    movieNumber: "19",
+    id: "chhava-2025",
     homeSrc:
       "https://i.pinimg.com/736x/2f/90/80/2f9080f72ad1f6839a5b0eb81a8bd221.jpg",
     homeFirstTitle: "Chhaava 2025 Hindi Movie NF WebRip 480p 720p 1080p 2160p ",
@@ -315,7 +325,8 @@ export let homeCards = [
     home2160pLink: "https://new20.gdtot.dad/file/6636709859",
   },
   {
-    id: "deva-2025-18",
+    movieNumber: "18",
+    id: "deva-2025",
     homeSrc:
       "https://i.pinimg.com/736x/ef/c7/b8/efc7b868132ad23cdccf53bfd2824e14.jpg",
     homeFirstTitle: "Deva 2025 Hindi Movie NF WebRip 480p 720p 1080p ",
@@ -344,7 +355,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "loveyapa-2025-17",
+    movieNumber: "17",
+    id: "loveyapa-2025",
     homeSrc:
       "https://i.pinimg.com/736x/ba/89/ec/ba89ec1d71defa02f662063705bd77a8.jpg",
     homeFirstTitle:
@@ -375,7 +387,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "mickey-17-2025-16",
+    movieNumber: "16",
+    id: "mickey-17-2025",
     homeSrc:
       "https://i.pinimg.com/736x/a8/54/8c/a8548cbe7f69896a236bde065986331f.jpg",
     homeFirstTitle:
@@ -406,7 +419,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "ka-pae-ranasingam-2020-15",
+    movieNumber: "15",
+    id: "ka-pae-ranasingam-2020",
     homeSrc:
       "https://content1.jdmagicbox.com/comp/jd_social/news/2020oct03/8rrw2rsyg7-l9zlx1prmy.jpg?fit=around|140:205&crop=140:205;*,*",
     homeFirstTitle:
@@ -437,7 +451,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "captain-america-brave-new-world-2025-14",
+    movieNumber: "14",
+    id: "captain-america-brave-new-world-2025",
     homeSrc:
       "https://i.pinimg.com/736x/34/ff/7e/34ff7e8ef223b1eea18e5c1b4325cc45.jpg",
     homeFirstTitle:
@@ -468,7 +483,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "the-gardener-2025-13",
+    movieNumber: "13",
+    id: "the-gardener-2025",
     homeSrc:
       "https://m.media-amazon.com/images/M/MV5BMzcwM2VjMjItYmJjZS00YmNhLWJkMDUtNjY0MmI4YzliNDFjXkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
     homeFirstTitle:
@@ -499,7 +515,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "chhorii-2-2025-12",
+    movieNumber: "12",
+    id: "chhorii-2-2025",
     homeSrc:
       "https://i.pinimg.com/736x/9a/5c/ae/9a5cae39a56d8114e3efceb589c7f055.jpg",
     homeFirstTitle: "Chhorii 2 2025 Hindi Movie WEB-DL 1080p 720p 480p HEVC",
@@ -528,7 +545,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "a-knight's-war-2025-11",
+    movieNumber: "11",
+    id: "a-knight's-war-2025",
     homeSrc:
       "https://i.pinimg.com/736x/68/42/ae/6842ae97eaa8e56fe097d275455bf66a.jpg",
     homeFirstTitle:
@@ -559,7 +577,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "kgf-chapter-2-2022-10",
+    movieNumber: "10",
+    id: "kgf-chapter-2-2022",
     homeSrc:
       "https://i.pinimg.com/736x/9c/a2/91/9ca291ac23b69ed5580cdf6e73fd913d.jpg",
     homeFirstTitle:
@@ -590,7 +609,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "gadar-2-2023-9",
+    movieNumber: "9",
+    id: "gadar-2-2023",
     homeSrc:
       "https://i.pinimg.com/736x/58/1a/93/581a93f590cf733e00020dd4055cf819.jpg",
     homeFirstTitle: "Gadar 2 (2023) Hindi WebRip 720p HD Hindi-Subs",
@@ -621,7 +641,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "gadar-ek-prem-katha-2001-8",
+    movieNumber: "8",
+    id: "gadar-ek-prem-katha-2001",
     homeSrc:
       "https://i.pinimg.com/736x/dc/5f/78/dc5f78705d77184d2384417fb7b53aae.jpg",
     homeFirstTitle:
@@ -653,7 +674,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "stree-2-2024-7",
+    movieNumber: "7",
+    id: "stree-2-2024",
     homeSrc:
       "https://i.pinimg.com/736x/7c/ad/45/7cad45919e7262e35ff639885f26f4c6.jpg",
     homeFirstTitle: "Stree 2 (2024) Hindi WebRip 720p HD Hindi-Subs",
@@ -684,7 +706,8 @@ export let homeCards = [
     home2160pLink: "https://new20.gdtot.dad/file/8565293629",
   },
   {
-    id: "hero-2015-6",
+    movieNumber: "6",
+    id: "hero-2015",
     homeSrc:
       "https://i.pinimg.com/736x/76/48/f4/7648f496d3fa7d0c7ff28d142d01c50b.jpg",
     homeFirstTitle: "Hero (2015) Hindi WebRip 720p HD Hindi-Subs",
@@ -714,7 +737,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "hell-hole-2024-5",
+    movieNumber: "5",
+    id: "hell-hole-2024",
     homeSrc:
       "https://i.pinimg.com/736x/1e/cc/4e/1ecc4eee5a3450090ed98d1a405f4ef6.jpg",
     homeFirstTitle:
@@ -746,7 +770,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "jatt-and-juliet-3-2024-4",
+    movieNumber: "4",
+    id: "jatt-and-juliet-3-2024",
     homeSrc:
       "https://i.pinimg.com/736x/3a/42/22/3a4222fa8a8d70092c017e3ccce5d717.jpg",
     homeFirstTitle:
@@ -778,7 +803,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "mirzapur-season-3-2024-3",
+    movieNumber: "3",
+    id: "mirzapur-season-3-2024",
     homeSrc:
       "https://i.pinimg.com/736x/b4/98/25/b49825a86f0c90a47333a8ea338380d1.jpg",
     homeFirstTitle:
@@ -810,7 +836,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "all-of-us-are-dead-2022-2",
+    movieNumber: "2",
+    id: "all-of-us-are-dead-2022",
     homeSrc:
       "https://i.pinimg.com/736x/96/83/a8/9683a8f98b4dc21687e348c3aa68defd.jpg",
     homeFirstTitle:
@@ -842,7 +869,8 @@ export let homeCards = [
     home2160pLink: "",
   },
   {
-    id: "attack-on-titan-season-1-1",
+    movieNumber: "1",
+    id: "attack-on-titan-season-1",
     homeSrc:
       "https://i.pinimg.com/736x/67/b6/90/67b690140f09b858dd942c7a35e434e2.jpg",
     homeFirstTitle:
