@@ -58,6 +58,7 @@ export let homeCards = [
     home480p: "480p",
     home720p: "720p",
     home1080p: "1080p",
+    home1080p: "",
     home2160p: "2160p",
     home480pLink: "https://new20.gdtot.dad/file/884984025",
     home720pLink: "https://new20.gdtot.dad/file/978497652",
