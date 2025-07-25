@@ -5,7 +5,7 @@ export let homeCards = [
     homeSrc:
       "https://i.pinimg.com/736x/e1/59/75/e159758edf7845962e06d82637d453f0.jpg",
     homeFirstTitle:
-      "War Bollywood Movie BlueRay 480p 720p 1080p 2160p  with English subsltitles Download samsmovies.xyz",
+      "War Bollywood Movie BlueRay 480p 720p 1080p 2160p  with English substitles Download samsmovies.xyz",
     homeSecTitle:
       "War 2019 Hindi Movie BlueRay 480p 720p 1080p  2160p with English substitles Download samsmovies.xyz",
     homeTitle: "War",
