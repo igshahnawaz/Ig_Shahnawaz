@@ -104,11 +104,11 @@ export let homeCards = [
     homeSrc:
       "https://i.pinimg.com/1200x/31/1d/d6/311dd69dd840ce11ef87595c5eb3c33b.jpg",
     homeFirstTitle:
-      "Pathaan Bollywood Movie HDRip 480p 720p 1080p 2160p Download samsmovies.xyz",
+      "Pathaan Bollywood Movie BlueRay 480p 720p 1080p 2160p Download samsmovies.xyz",
     homeSecTitle:
-      "Pathaan Hindi Movie HDRip 480p 720p 1080p  2160p Download samsmovies.xyz",
+      "Pathaan Hindi Movie BlueRay 480p 720p 1080p  2160p Download samsmovies.xyz",
     homeTitle: "Pathaan",
-    homeQuality: "HDRip",
+    homeQuality: "BlueRay",
     homeDownload: "Download Movie",
     homeMore: "...more",
     homeYear: "2023",
@@ -333,9 +333,9 @@ export let homeCards = [
     id: "jaat-2025",
     homeSrc:
       "https://m.media-amazon.com/images/M/MV5BOWEzZTQ4NzYtZGY5ZS00M2VmLWI5OWItZjZiM2QyYTRmMTkwXkEyXkFqcGc@._V1_FMjpg_UY2048_.jpg",
-    homeFirstTitle: "Jaat 2025 Hindi Movie webRip 480p 720p 1080p 2160p",
+    homeFirstTitle: "Jaat 2025 Hindi Movie WebRip 480p 720p 1080p 2160p",
     homeSecTitle:
-      "Jaat 2025 Hindi Movie HDTS 480p 720p 1080p download samsmovies.com",
+      "Jaat 2025 Hindi Movie WebRip 480p 720p 1080p download samsmovies.com",
     homeTitle: "Jaat",
     homeQuality: "WebRip",
     homeDownload: "Download Movie",
