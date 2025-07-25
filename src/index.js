@@ -18,6 +18,8 @@ import Disclaimer from "./Components/Pages/Disclaimer";
 import About from "./Components/Pages/About";
 import SearchMovie from "./Components/Pages/SearchMovie";
 import PageNotFound from "./Components/Pages/PageNotFound";
+import ReactGA from "react-ga4";
+
 
 const root = ReactDOM.createRoot(document.getElementById("samsmovies"));
 let routes = createBrowserRouter([
@@ -82,6 +84,16 @@ let routes = createBrowserRouter([
     element: <WebSeries />,
   },
 ]);
+
+
+ReactGA.initialize("G-RGPRFZHVKS"); 
+ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+ReactGA.event({
+  category: "User",
+  action: "Clicked Button",
+  label: "Signup Button"
+});
+
 root.render(
   <React.StrictMode>
     <RouterProvider router={routes} />
