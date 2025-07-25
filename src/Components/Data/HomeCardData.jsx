@@ -1,5 +1,38 @@
 export let homeCards = [
   {
+    movieNumber: "34",
+    id: "war-2019",
+    homeSrc:
+      "https://i.pinimg.com/736x/e1/59/75/e159758edf7845962e06d82637d453f0.jpg",
+    homeFirstTitle:
+      "War Bollywood Movie BlueRay 480p 720p 1080p 2160p  with English subsltitles Download samsmovies.xyz",
+    homeSecTitle:
+      "War 2019 Hindi Movie BlueRay 480p 720p 1080p  2160p with English substitles Download samsmovies.xyz",
+    homeTitle: "War",
+    homeQuality: "BlueRay",
+    homeDownload: "Download Movie",
+    homeMore: "...more",
+    homeYear: "2019",
+    homeLength: "154 mins",
+    homeDetails:
+      "a soldier grappling with the moral ambiguities of combat, perhaps torn between duty and personal conscience. Alternatively, it could focus on a group of civilians caught in the crossfire, highlighting their resilience and struggle for survival.",
+    homeDirector: "Siddharth Anand",
+    homeStar: "Hrithik Roshan, Tiger Shroff, Vaani Kapoor",
+    homeLang: "Hindi",
+    homeGenre: "Action, Thriller",
+    homeSubs: "English",
+    homeCat: "bollywood",
+    home480p: "480p",
+    home720p: "720p",
+    home1080p: "1080p",
+    home1440p: "",
+    home2160p: "2160p",
+    home480pLink: "https://new20.gdtot.dad/file/430436465",
+    home720pLink: "https://new20.gdtot.dad/file/1427103222",
+    home1080pLink: "https://new20.gdtot.dad/file/4762447413",
+    home2160pLink: "https://new20.gdtot.dad/file/14701699293",
+  },
+  {
     movieNumber: "33",
     id: "sitaare-zameen-par-2025",
     homeSrc:
@@ -7,7 +40,7 @@ export let homeCards = [
     homeFirstTitle:
       "Sitaare Zameen Par Bollywood Movie HDRip 480p 720p 1080p 2160p Download samsmovies.xyz",
     homeSecTitle:
-      "Sitaare Zameen Par Hindi Movie HDRip 480p 720p 1080p  2160p Download samasmovies.xyz",
+      "Sitaare Zameen Par Hindi Movie HDRip 480p 720p 1080p  2160p Download samsmovies.xyz",
     homeTitle: "Sitaare Zameen Par",
     homeQuality: "HDRip",
     homeDownload: "Download Movie",
@@ -40,7 +73,7 @@ export let homeCards = [
     homeFirstTitle:
       "Tumbbad Bollywood Movie WebRip 480p 720p 1080p 2160p Download samsmovies.xyz",
     homeSecTitle:
-      "Tumbbad Hindi Movie WebRip 480p 720p 1080p  2160p Download samasmovies.xyz",
+      "Tumbbad Hindi Movie WebRip 480p 720p 1080p  2160p Download samsmovies.xyz",
     homeTitle: "Tumbbad",
     homeQuality: "WebRip",
     homeDownload: "Download Movie",
@@ -73,7 +106,7 @@ export let homeCards = [
     homeFirstTitle:
       "Pathaan Bollywood Movie HDRip 480p 720p 1080p 2160p Download samsmovies.xyz",
     homeSecTitle:
-      "Pathaan Hindi Movie HDRip 480p 720p 1080p  2160p Download samasmovies.xyz",
+      "Pathaan Hindi Movie HDRip 480p 720p 1080p  2160p Download samsmovies.xyz",
     homeTitle: "Pathaan",
     homeQuality: "HDRip",
     homeDownload: "Download Movie",
@@ -106,7 +139,7 @@ export let homeCards = [
     homeFirstTitle:
       " Jawan Bollywood Movie BlueRay 480p 720p 1080p 2160p Download samsmovies.xyz",
     homeSecTitle:
-      "Jawan Hindi Movie BlueRay 480p 720p 1080p  2160p Download samasmovies.xyz",
+      "Jawan Hindi Movie BlueRay 480p 720p 1080p  2160p Download samsmovies.xyz",
     homeTitle: "Jawan",
     homeQuality: "BlueRay",
     homeDownload: "Download Movie",
@@ -138,7 +171,7 @@ export let homeCards = [
     homeFirstTitle:
       "Munjya Bollywood Movie WebRip 480p 720p 1080p 2160p Download samsmovies.xyz",
     homeSecTitle:
-      "Munjya Hindi Movie WebRip 480p 720p 1080p  2160p Download samasmovies.xyz",
+      "Munjya Hindi Movie WebRip 480p 720p 1080p  2160p Download samsmovies.xyz",
     homeTitle: "Munjya",
     homeQuality: "WebRip",
     homeDownload: "Download Movie",
@@ -171,7 +204,7 @@ export let homeCards = [
       "https://media5.bollywoodhungama.in/wp-content/uploads/2025/07/Saiyaara-001-1.jpg",
     homeFirstTitle: "Saiyaara 2025 Hindi Movie HDTS 480p 720p 1080p",
     homeSecTitle:
-      "Saiyaara 2025 Hindi Movie HDRip 480p 720p 1080p Download samasmovies.xyz",
+      "Saiyaara 2025 Hindi Movie HDRip 480p 720p 1080p Download samsmovies.xyz",
     homeTitle: "Saiyaara",
     homeQuality: "HDTS",
     homeDownload: "Download Movie",
@@ -204,7 +237,7 @@ export let homeCards = [
     homeFirstTitle:
       "Maa 2025 Hindi Movie HDRip 480p 720p 1080p With English substitle",
     homeSecTitle:
-      "Maa 2025 Hindi Movie HDRip 480p 720p 1080p Download with English substitle samasmovies.xyz",
+      "Maa 2025 Hindi Movie HDRip 480p 720p 1080p Download with English substitle samsmovies.xyz",
     homeTitle: "Maa",
     homeQuality: "HDRip",
     homeDownload: "Download Movie",
@@ -230,15 +263,15 @@ export let homeCards = [
   },
   {
     movieNumber: "26",
-    id: "stree-2025",
+    id: "stree-2018",
     homeSrc:
       "https://i.pinimg.com/736x/f9/43/a8/f943a81c57649aafb367ad92f4345a7f.jpg",
     homeFirstTitle:
-      "Stree 2018 Hindi Movie HDRip 480p 720p 1080p With English Substitle",
+      "Stree 2018 Hindi Movie WebRip 480p 720p 1080p With English Substitle",
     homeSecTitle:
-      "Stree 2018 Hindi Movie HDRip 480p 720p 1080p with English substitle Download samasmovies.xyz",
+      "Stree 2018 Hindi Movie WebRip 480p 720p 1080p with English substitle Download samsmovies.xyz",
     homeTitle: "Stree",
-    homeQuality: "HDRip",
+    homeQuality: "WebRip",
     homeDownload: "Download Movie",
     homeMore: "...more",
     homeYear: "2018",
@@ -288,13 +321,12 @@ export let homeCards = [
     home480p: "480p",
     home720p: "720p",
     home1080p: "1080p",
-    home1440p: "1440p",
+    home1440p: "",
     home2160p: "2160p",
-    home480pLink: "",
-    home720pLink: "",
-    home1080pLink: "",
-    home1440pLink: "",
-    home2160pLink: "",
+    home480pLink: "https://new20.gdtot.dad/file/1659659199",
+    home720pLink: "https://new20.gdtot.dad/file/8262820575",
+    home1080pLink: "https://new20.gdtot.dad/file/27537404253",
+    home2160pLink: "https://new20.gdtot.dad/file/37036352916",
   },
   {
     movieNumber: "24",
@@ -321,13 +353,12 @@ export let homeCards = [
     home480p: "480p",
     home720p: "720p",
     home1080p: "1080p",
-    home1440p: "1440p",
+    home1440p: "",
     home2160p: "2160p",
-    home480pLink: "",
-    home720pLink: "",
-    home1080pLink: "",
-    home1440pLink: "",
-    home2160pLink: "",
+    home480pLink: "https://new20.gdtot.dad/file/338730165",
+    home720pLink: "https://new20.gdtot.dad/file/1455940415",
+    home1080pLink: "https://new20.gdtot.dad/file/3068306152",
+    home2160pLink: "https://new20.gdtot.dad/file/6328277073",
   },
   {
     movieNumber: "23",
@@ -355,13 +386,12 @@ export let homeCards = [
     home480p: "480p",
     home720p: "720p",
     home1080p: "1080p",
-    home1440p: "1440p",
+    home1440p: "",
     home2160p: "2160p",
-    home480pLink: "",
-    home720pLink: "",
-    home1080pLink: "",
-    home1440pLink: "",
-    home2160pLink: "",
+    home480pLink: "https://new20.gdtot.dad/file/326226648",
+    home720pLink: "https://new20.gdtot.dad/file/1401642693",
+    home1080pLink: "https://new20.gdtot.dad/file/2953888871",
+    home2160pLink: "https://new20.gdtot.dad/file/10124365668",
   },
   {
     movieNumber: "22",
